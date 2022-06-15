@@ -17,9 +17,9 @@ from Services.OCR.OCRService import OCRService
 
 
 ocr = OCRService(
-    r"C:\AUT_RPA_V2\Services\Utilities\Engine\Tesseract-OCR\tesseract.exe")
+    r"")
 
-path_directory = r"C:\Users\thiag\OneDrive\Área de Trabalho\CLIENTES\UL\COMPROVANTE_OCR_UL\comprovantes\validate"
+path_directory = r""
 
 # path_image = ocr.recognize_image(path_directory, "2022-06-08-12-09-06.jpg")
 path_image = ocr.recognize_image(path_directory, "2022-06-08-12-09-06.jpg")
