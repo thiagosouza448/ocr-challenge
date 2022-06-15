@@ -1,0 +1,5 @@
+pytesseract==0.3.4
+opencv-python==4.3.0.36
+openpyxl==3.0.5
+numpy==1.19.0
+opencv-python==4.3.0.36
