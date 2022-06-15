@@ -30,38 +30,3 @@ def FindAute(path_image):
 
 
 aute = FindAute(path_image)
-
-
-
-
-
-
-
-
-
-# teste = json.dumps(map_image, indent=4, separators=(". ", " = "))
-# lowerText = teste.lower().replace("(c)\n", "")
-# text_split = lowerText.split()
-
-# # print(text_split)
-
-
-
-# y = 0
-# for x in text_split:
-#     y += 1
-#     try:
-#         if x.__contains__("aute"):
-#             i = y
-#             concatenated = text_split[i-1]
-#             concat_str = concatenated.replace("aute", "").split(":")
-
-#             not_concatenated = text_split[i]
-
-#             if len(concat_str[1]) == 6:
-#                 print(concat_str[1])
-#             elif len(not_concatenated) == 6:
-#                 print(not_concatenated)
-
-#     except:
-#         print("nenhum Aute encontrado")
