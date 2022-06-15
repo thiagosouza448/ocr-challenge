@@ -15,9 +15,8 @@ from Services.OCR.OCRService import OCRService
 
 
 
-
-ocr = OCRService(
-    r"")
+# ADD BASEDIR TESSERACT.EXE
+ocr = OCRService( r"")
 
 path_directory = r""
 
