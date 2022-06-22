@@ -1,0 +1,13 @@
+[
+    {
+      "NAME": "AUTE",
+      "VARIACOES": ["AUTE","AUT", "AU","AUTE"],
+       "VALUE_AUTE_VARS":{"/": "7", "?": "9"}
+    
+    },
+    {
+        "NAME": "AUTO",
+        "VARIACOES": ["AUTO","ATUO", "AU","TO"],
+         "VALUE_AUTE_VARS":{"/": "7", "?": "9"}
+    }
+]
