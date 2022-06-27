@@ -7,7 +7,7 @@ from Services.OCR.OCRService import OCRService
 ocr = OCRService(r"OCR\Tesseract-OCR\tesseract.exe")
 # LIST IMAGE MOCK THAT GOING RECEIV
 list_image = ['2022-06-27-10-20-46.jpg','2022-06-27-10-20-58.jpg', '2022-06-27-10-21-01.jpg', '2022-06-27-10-21-13.jpg']
-path_directory = r"D:\ESTUDO\PYTHON\OCR\ocr-challenge\receipts\CV\CV645"
+path_directory = r"receipts\CV\CV645"
 # MOCK KWORDS
 key = 'AUTE'
 # INSTANCE CLASS
