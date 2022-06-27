@@ -59,17 +59,16 @@ class ReceiptsUtils:
             if aute != None:
                 self.aute_list.append(aute)
         return self.aute_list
-
-
-
+    
+    
 
 
 if __name__ == "__main__":
         # INSTANCE OCR FOR USING IN FIND_KEY
-    ocr = OCRService(r"C:\AUT_RPA_V2\Services\Utilities\Engine\Tesseract-OCR\tesseract.exe")
+    ocr = OCRService(r"OCR\Tesseract-OCR\tesseract.exe")
     # LIST IMAGE MOCK THAT GOING RECEIV
-    list_image = ['2022-06-08-11-55-00.jpg','2022-06-08-11-55-26.jpg', '2022-06-08-12-09-17.jpg', '2022-06-08-12-09-21.jpg']
-    path_directory = r"D:\PROJETOS\UL\ocr-challenge\comprovantes\validate"
+    list_image = ['2022-06-27-10-20-46.jpg','2022-06-27-10-20-58.jpg', '2022-06-27-10-21-01.jpg', '2022-06-27-10-21-13.jpg']
+    path_directory = r"receipts\CV\CV645"
     # MOCK KWORDS
     key = 'AUTE'
     # INSTANCE CLASS
